@@ -1,0 +1,40 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "abc",
+      "phone": "7896332145",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "cba",
+      "phone": "7123456789",
+      "email": "cba@gmail.com"
+    },
+    {
+      "id": "ce75",
+      "name": "Muthu",
+      "phone": "6380634230",
+      "email": "muthu@gmail.com"
+    },
+    {
+      "id": "978f",
+      "name": "Muthu",
+      "phone": "6380634230",
+      "email": "muthu@gmail.com"
+    },
+    {
+      "id": "ee57",
+      "name": "",
+      "phone": "",
+      "email": ""
+    },
+    {
+      "id": "bae1",
+      "name": "",
+      "phone": "",
+      "email": ""
+    }
+  ]
+}
