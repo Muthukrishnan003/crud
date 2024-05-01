@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('clone'){
             steps{
-                sh 'git clone https://github.com/Muthukrishnan003/crud.git -b master '
+                sh 'git clone https://github.com/Muthukrishnan003/crud.git -b main '
             }
         }
 	      stage('npm install'){
