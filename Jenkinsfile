@@ -7,13 +7,9 @@ pipeline{
 		sh 'git clone https://github.com/Muthukrishnan003/crud.git -b main '
             }
         }
-	 stage('npm install'){
+	 stage('json-server'){
              steps{
-		script {
-                    // Use apt commands within script block
-                    sh 'apt update'
-                    sh 'apt install -y package-name'
-                }
+		echo "json-server"
             }
         }
     }
