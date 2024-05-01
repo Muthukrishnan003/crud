@@ -9,8 +9,8 @@ pipeline{
         }
 	      stage('npm install'){
             steps{
-		sh 'sudo apt update'
-                sh 'sudo apt install npm'
+		sh 'sudo -S apt update'
+                sh 'sudo -S apt install npm'
             }
         }
     }
