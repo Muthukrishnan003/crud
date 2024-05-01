@@ -7,9 +7,11 @@ pipeline{
 		sh 'git clone https://github.com/Muthukrishnan003/crud.git -b main '
             }
         }
-	      stage('npm install'){
-            steps{
-                sh 'apt install npm'
+	 stage('npm install'){
+             steps{
+		 node{
+		    sh 'npm install'
+		 }
             }
         }
     }
